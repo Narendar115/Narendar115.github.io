@@ -75,6 +75,8 @@ header a{
 #probtn{
     text-align: center;
     justify-content: space-around;
+    color: white;
+    text-decoration: none;
 }
 footer{
     width:100%;
