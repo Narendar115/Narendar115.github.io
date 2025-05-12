@@ -30,7 +30,7 @@ header a{
     display:flex;
     justify-content: space-around;
     flex-wrap:wrap;
-    padding:20px;
+    padding:30px;
 
 }
 .box{
@@ -39,9 +39,14 @@ header a{
     background-color: white;
     border-radius:20px;
 }
-#box{
+#probox{
     width:300px;
-    height:100px;
+    height:200px;;
+}
+#probox:hover{
+    overflow: auto;
+    transform:scale(1.1,1.1);
+    
 }
 .button{
     background-color: blue;
@@ -57,7 +62,9 @@ header a{
     margin-top:10px;
 }
 .image{
+    padding:50px;
     border-radius:100px;
+    justify-content: center;
 }
 .title{
     font-size: 20px;;
@@ -78,4 +85,9 @@ footer{
 }
 #services{
     text-align: left;
+}
+#imgs{
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
