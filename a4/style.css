@@ -1,0 +1,11 @@
+*{
+    margin:0;
+}
+#container{
+    width:500px;
+    background-color: rgb(21, 131, 227);
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+
+}
