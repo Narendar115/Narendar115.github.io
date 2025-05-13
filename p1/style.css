@@ -9,9 +9,11 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
     padding:10px;
     background-color:blue;
     color:white;
+    
 }
 .header ul{
     list-style: none;;
