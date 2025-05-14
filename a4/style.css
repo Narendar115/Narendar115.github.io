@@ -2,18 +2,22 @@
     margin:0;
     padding:0;
 }
+
 #title{
     color: rgb(25, 25, 238);
 }
 #container{
     margin: 0;
   padding: 0;
-  width:auto;
+  max-width: 100%;
+  width:100%;
+  display:flex;
   justify-content: center;
   align-items: center;
-  display:flex;
+  
   flex-direction: column;
-  background-color: white;
+  background-color:white;
+  box-sizing: border-box;
 }
 .name-row{
     border-radius: 5px;
