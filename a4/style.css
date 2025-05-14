@@ -6,6 +6,11 @@
 #title{
     color: rgb(25, 25, 238);
 }
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #container{
     margin: 0;
   padding: 0;
