@@ -6,8 +6,5 @@ const objects=[
 objects.forEach((value)=>{
     // console.log(value.name)
     value.price=value.price+5;
-})
-objects.forEach((value)=>{
-    console.log(value.name);
-    console.log(value.price);
+    console.log(value.name+" "+value.price);
 })
