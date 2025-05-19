@@ -6,7 +6,18 @@
 
 
 var fruits=["apple","banana","orange","melon"];
+fruits.map((value)=>{
+    list.innerHTML+=`<li>${value}</li>`
+})
+let str=""
 function disp(){
-    let val=document.getElementById('ip').value;
-    di.innerHTML=val;
+    str=document.getElementById('ip').value.toLowerCase();
+    const filtered=fruits.find((value)=>{
+        value.toLoweCase()==str;
+    })
+    if(filtered){
+        di.innerHTML=`Found:${filtered}`
+    }
+    else
+      di.innerHTML=`Not found`
 }
