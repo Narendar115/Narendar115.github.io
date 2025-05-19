@@ -11,7 +11,10 @@ const addToCart = (id) => {
   // on box 1 is clicked, then if add button on box 3 is clicked then
   //cart object should be {1:1,3:1}
   // write code here....
-  cart[id] = 1;
+  if(!cart[id]){
+     cart[id]=1;
+  }
+  
   // console.log(cart);
 };
 
